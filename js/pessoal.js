@@ -78,6 +78,9 @@ $(document).ready(function(){
 
 	 // DIFERENCAS
 	 $(".diferencas-btn").slideUp(400);
+	 $(".diferencas-btn").click(function() {
+	 	$(".diferencas-btn").slideUp(400);
+	 });
 
 	 $('.btn-fechar').click(function() {
 		$(".diferencas-btn").slideUp(400);
