@@ -1,6 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,12 +14,30 @@
 <body>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1031029970272745";
-  fjs.parentNode.insertBefore(js, fjs);
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1031029970272745";
+	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+	<header class="menu-header" style="position: fixed !important">
+		<nav id="hotsite">
+			<div class="bg-color">
+				<div class="menu">
+					<ul class="menu-items">
+						<li id="politica"><a href="#">Política</a></li>
+						<li id="economia"><a href="#">Economia</a></li>
+						<li id="esporte"><a href="#">Esporte</a></li>
+						<li id="tv-fato" class="mg-fix"><a href="#">TV Fato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ico-menu">
+				<a id="menu-open" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+				<a id="menu-close" href="#"><span class="glyphicon glyphicon-triangle-top"></span></a>
+			</div>
+		</nav>
+	</header>
 	<section>
 		<nav class="nav-social pull-right">
 			<ul>
@@ -243,7 +262,10 @@
 				<li id="duvidas">
 					<div class="container">
 						<h1 class="titulo">Ainda tem dúvidas?</h1>
-						<div style="width:100%; background:black; height:150px;">
+						<div class="col-md-6 col-md-offset-3" style="margin-bottom:10px;">
+							<iframe width="100%" height="300" src="http://www.thinglink.com/card/756997706311794690" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+						</div>
+						<div style="width:100%; background:black; min-height:200px; max-height:350px; clear:both; overflow:auto">
 							<div class="fb-comments" data-href="http://qa.fatoonline.com.br/conteudo/12186" data-width="100%" data-numposts="3"></div>							
 						</div>
 					</div>
