@@ -41,6 +41,7 @@ section{
 	right: 10%;
 	margin-top: 20px;
 	text-transform: uppercase;
+	color: white;
 }
 
 .nav-social li{
@@ -48,7 +49,7 @@ section{
 }
 
 .nav-social img{
-	width: 40px;
+	width: 30px;
 }
 
 #nome-social{
@@ -56,17 +57,17 @@ section{
 }
 
 .titulo{
-	margin-top: 100px !important;
+	margin-top: 110px !important;
+}
+
+.titulo-invertido{
+	color:#363636 !important;
 }
 
 /*SLIDER*/
 #home{
 	height: 100%;
 	width: 100%;
-}
-
-#home .logo{
-	margin-top: 115px;
 }
 
 #home .img-home{
@@ -158,6 +159,22 @@ section{
 }
 
 /*MITOS*/
+#mitos{
+	height: 100%;
+	background: rgba(247,247,248,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(247,247,248,1) 0%, rgba(183,183,183,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(247,247,248,1)), color-stop(100%, rgba(183,183,183,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(247,247,248,1) 0%, rgba(183,183,183,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(247,247,248,1) 0%, rgba(183,183,183,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(247,247,248,1) 0%, rgba(183,183,183,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(247,247,248,1) 0%, rgba(183,183,183,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f8', endColorstr='#b7b7b7', GradientType=1 );
+}
+
+#mitos .titulo{
+	margin-top: 40% !important;
+}
+
 .button-verdade {
 	position: relative;
 	vertical-align: top;
@@ -204,6 +221,79 @@ section{
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+#pergunta-02,#pergunta-03,#pergunta-04,#pergunta-05,#pergunta-06{
+	display: none;
+}
+
+.resposta{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0; right: 0; top: 0;
+	padding-top: 15%;
+	color: #fff;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.resposta h1{
+	font-size: 60px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.resposta span{
+	font-size: 80px;
+}
+
+.resposta p{
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.resposta .link{
+	font-size: 15px;
+	font-weight: 300;
+	clear: both;
+	cursor: pointer;
+}
+
+.resposta.verdade{
+	background-color: rgba(0, 166, 81, 0.95); 
+}
+
+.resposta.mito{
+	background-color: rgba(237, 28, 36, 0.95); 
+}
+
+/*DUVIDAS*/
+#duvidas{
+	height: 100%;
+	background: rgba(167,99,168,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(167,99,168,1)), color-stop(100%, rgba(100,5,97,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a763a8', endColorstr='#640561', GradientType=1 );
+}
+
+/*CAMPANHAS*/
+#campanhas{
+	height: 100%;
+	background: rgba(139,197,63,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(139,197,63,1) 0%, rgba(1,115,54,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(139,197,63,1)), color-stop(100%, rgba(1,115,54,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(139,197,63,1) 0%, rgba(1,115,54,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(139,197,63,1) 0%, rgba(1,115,54,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(139,197,63,1) 0%, rgba(1,115,54,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(139,197,63,1) 0%, rgba(1,115,54,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bc53f', endColorstr='#017336', GradientType=1 );
 }
 
 /*TABLET*/
