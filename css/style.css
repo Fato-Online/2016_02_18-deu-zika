@@ -1,0 +1,215 @@
+body{
+	height: 100%;
+}
+
+section{
+	height: 100%;
+	background: black;
+}
+
+.bx-wrapper{
+	margin: 0px;
+}
+
+.bx-wrapper .bx-viewport{
+		box-shadow: none;
+	-webkit-box-shadow: none;
+	background: none !important;
+	border: none !important;
+}
+
+.bx-viewport{
+	height: 100% !important;
+	position: static !important;
+}
+
+#bx-pager{
+	text-align: center;
+	position: absolute;
+	margin: auto;
+	left: 0; bottom: 10; right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px 0px;
+}
+
+#bx-pager a{
+	padding: 0px 30px;
+}
+
+.nav-social{
+	position: absolute;
+	z-index: 999;
+	right: 10%;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.nav-social li{
+	display: inline;
+}
+
+.nav-social img{
+	width: 40px;
+}
+
+#nome-social{
+	margin-right: 10px;
+}
+
+.titulo{
+	margin-top: 100px !important;
+}
+
+/*SLIDER*/
+#home{
+	height: 100%;
+	width: 100%;
+}
+
+#home .logo{
+	margin-top: 115px;
+}
+
+#home .img-home{
+	top: 40%;
+}
+
+/*FICHA*/
+#ficha{
+	height: 100%;
+	width: 100%;
+}
+
+#ficha .img-ficha2{
+	width: 30%;
+	left: 52%;
+	max-width: 461px;
+}
+
+/*PLANTAS*/
+#plantas{
+	color: white;
+}
+
+/*DIFERENCAS*/
+.button-pink {
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #ed145b;
+	border: 0;
+	border-bottom: 2px solid #cd0d4b;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #cd0d4b;
+	box-shadow: inset 0 -2px #cd0d4b;
+}
+.button-pink:active {
+	top: 1px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#video-diferenca{
+	margin-bottom: 20px;
+}
+
+.diferencas-btn{
+	position: absolute;
+	left: 0; right: 0; top: 0;
+	padding-top: 120px;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+}
+
+#diferenca-chikungunya{
+	text-align: center;
+}
+
+.thinglink{
+	max-width: 920px;
+	margin: auto;
+	position: relative;
+	top: -75px;
+}
+
+.btn-fechar{
+	color:white;
+	font-size:20px;
+	cursor: pointer;
+	float: right;
+	right: 70px;
+	margin-top: 80px;
+}
+
+.btn-fechar p{
+	font-size: 15px;
+	font-weight: 300;
+	float: right;
+	margin-top:  3px;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+
+/*MITOS*/
+.button-verdade {
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #26a744;
+	border: 0;
+	border-bottom: 2px solid #17722d;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #17722d;
+	box-shadow: inset 0 -2px #17722d;
+}
+.button-verdade:active {
+	top: 1px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.button-mito {
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #e8211a;
+	border: 0;
+	border-bottom: 2px solid #9a1004;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #9a1004;
+	box-shadow: inset 0 -2px #9a1004;
+}
+.button-mito:active {
+	top: 1px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/*TABLET*/
+@media (max-width: 1024px) {
+	.img-perfil {
+		margin-left: -10%;
+	}
+}

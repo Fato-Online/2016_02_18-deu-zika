@@ -1,0 +1,121 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/deu-zika.webflow.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- FONT -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<title></title>
+</head>
+<body>
+	<section>
+		<nav class="nav-social pull-right">
+			<ul>
+				<li id="nome-social">Social</li>
+				<li><a href="#"><img src="images/Logo-FB.jpg" /></a></li>
+				<li><a href="#"><img src="images/Logo-TT.jpg" /></a></li>
+				<li><a href="#"><img src="images/Logo-IG.jpg" /></a></li>
+				<li><a href="#"><img src="images/Logo-YT.jpg" /></a></li>
+			</ul>
+		</nav>
+		<ul class="bxslider">
+				<li id="home" class="home">
+					<img src="images/logo.png" class="logo"><img src="images/mosquito.png" class="img-home">
+				</li>
+				<li id="ficha" class="sec-ficha">
+					<div>
+						<img src="images/logo2.png" class="logo2">
+						<img src="images/ficha-mosquito.png" class="img-perfil">
+						<img src="images/ficha-pag.png" class="img-ficha2">
+						<img src="images/ficha-pasta.png" class="img-pasta">
+					</div>
+				</li>
+				<li id="plantas" class="sec-plantas">
+					<h1 class="titulo">Plantas que ajudam</h1>
+					<div class="container">
+						<div class="col-md-6">
+							<img src="images/mosquito-flor.jpg">
+						</div>
+						<div class="col-md-6">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/H0k0AW_c_8Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+							<h4>Publicado em 16 de fev de 2016</h4>
+							<p>A agrônoma Janine Camargo explica como utilizar plantas como repelentes contra o temido Aedes aegypti</p>
+						</div>
+					</div><img src="images/logo2.png" class="logo2">
+				</li>
+				<li id="diferencas" class="sec-diferenca">
+					<img src="images/logo2.png" class="logo2">
+					<h1 class="titulo">Você sabe a diferença?</h1>
+					<div class="container" id="video-diferenca">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<iframe width="100%" height="310" src="https://www.youtube.com/embed/hyd8Rjt9mRU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<input type="submit" value="DENGUE" id="btn-dengue" class="button-pink">
+							</div>
+							<div class="col-md-4">
+								<input type="submit" value="ZIKA" id="btn-zika" class="button-pink">
+							</div>
+							<div class="col-md-4">
+								<input type="submit" value="CHIKUNGUNYA" id="btn-chikungunya" class="button-pink">
+							</div>
+						</div>
+					</div>
+					<div id="diferenca-chikungunya" class="diferencas-btn">
+						<span class="glyphicon glyphicon-remove-sign btn-fechar"><p>Fechar</p></span>
+						<div class="thinglink">
+							<iframe width="100%" height="676" src="http://www.thinglink.com/card/756277525088305154" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+						</div>
+					</div>
+					<div id="diferenca-zika" class="diferencas-btn">
+						<span class="glyphicon glyphicon-remove-sign btn-fechar"><p>Fechar</p></span>
+						<div class="thinglink">
+							<iframe width="100%" height="676" src="http://www.thinglink.com/card/756583834178289666" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+						</div>
+					</div>
+					<div id="diferenca-dengue" class="diferencas-btn">
+						<span class="glyphicon glyphicon-remove-sign btn-fechar"><p>Fechar</p></span>
+						<div class="thinglink">
+							<iframe width="100%" height="676" src="http://www.thinglink.com/card/756581757490298882" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+						</div>
+					</div>
+				</li>
+				<li id="mitos">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<input type="submit" value="VERDADE" class="button-verdade">
+							</div>
+							<div class="col-md-4">
+								<input type="submit" value="MITO" class="button-mito">
+							</div>
+						</div>
+					</div>
+				</li>
+		</ul>
+		<div id="bx-pager" class="container">
+			 <a data-slide-index="0" href=""><img src="images/menu-home.png"/></a>
+			 <a data-slide-index="1" href=""><img src="images/menu-ficha.png"/></a>
+			 <a data-slide-index="2" href=""><img src="images/menu-plantas.png"/></a>
+			 <a data-slide-index="3" href=""><img src="images/menu-diferencas.png"/></a>
+			 <a data-slide-index="4" href=""><img src="images/menu-mitos.png"/></a>
+			 <a data-slide-index="5" href=""><img src="images/menu-duvidas.png"/></a>
+			 <a data-slide-index="6" href=""><img src="images/menu-campanhas.png"/></a>
+		</div>
+	</section>
+
+<!-- JS -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/pessoal.js"></script>
+</body>
+</html>
