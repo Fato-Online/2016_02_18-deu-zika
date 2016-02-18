@@ -135,9 +135,9 @@ section{
 	position: absolute;
 	z-index: 999;
 	right: 10%;
-	margin-top: 20px;
 	text-transform: uppercase;
 	color: white;
+	margin-top: 65px;
 }
 
 .nav-social li{
