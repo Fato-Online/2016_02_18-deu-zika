@@ -83,9 +83,9 @@
             border-radius: 25px;
         }
 
-				#hotsite .ico-menu a{
-					color: #222;
-				}
+	#hotsite .ico-menu a{
+		color: #222;
+	}
 
         #hotsite img {
             width: 39px;
@@ -268,7 +268,7 @@ section{
 }
 
 #mitos .titulo{
-	margin-top: 40% !important;
+	margin-top: 20% !important;
 }
 
 .button-verdade {
@@ -359,11 +359,11 @@ section{
 }
 
 .resposta.verdade{
-	background-color: rgba(0, 166, 81, 0.95); 
+	background-color: rgba(0, 166, 81, 0.95);
 }
 
 .resposta.mito{
-	background-color: rgba(237, 28, 36, 0.95); 
+	background-color: rgba(237, 28, 36, 0.95);
 }
 
 /*DUVIDAS*/
