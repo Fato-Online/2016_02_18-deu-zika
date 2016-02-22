@@ -78,12 +78,15 @@ $(document).ready(function(){
 
 	 // DIFERENCAS
 	 $(".diferencas-btn").slideUp(400);
+
 	 $(".diferencas-btn").click(function() {
 	 	$(".diferencas-btn").slideUp(400);
+	 	$(".smart").css('display', 'block');
 	 });
 
 	 $('.btn-fechar').click(function() {
 		$(".diferencas-btn").slideUp(400);
+		$(".smart").css('display', 'block');
 	 });
 
 	 $("#btn-chikungunya").click(function() {
@@ -96,5 +99,9 @@ $(document).ready(function(){
 
 	 $("#btn-zika").click(function() {
 		$("#diferenca-zika").slideDown(400);
+	 });
+
+	 $(".button-pink").click(function() {
+	 		$(".smart").css('display', 'none');
 	 });
 });
