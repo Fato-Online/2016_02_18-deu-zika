@@ -23,6 +23,18 @@
             display: none;
         }
 
+        .smart {
+            top: 10px ;
+            left: 0 ;
+            z-index: 1 ;
+		    width: 100% ;
+		    text-align: center;
+        /*
+            position:absolute;
+            transition: all 0.5s ease ;
+            font: italic 300 32px/34px 'Stag', Arial, Verdana, Helvetica, sans-serif;*/*/
+        }
+
         #hotsite .bg-color {
             background-color: #f1f1f1;
             height: 60px !important;
@@ -231,6 +243,7 @@ section{
 
 .thinglink{
 	max-width: 920px;
+	z-index: 999;
 	margin: auto;
 	position: relative;
 	top: -75px;
