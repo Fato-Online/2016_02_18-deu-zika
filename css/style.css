@@ -103,6 +103,18 @@ section{
 	height: 100%;
 }
 
+/*FB*/
+.fb-share-button{
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.bxslider li{
+	padding-bottom: 80px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
 .bx-wrapper{
 	margin: 0px;
 }
@@ -154,7 +166,7 @@ section{
 }
 
 .titulo{
-	margin-top: 110px !important;
+	margin-top: 15px !important;
 }
 
 .titulo-invertido{
@@ -178,9 +190,12 @@ section{
 }
 
 #ficha .img-ficha2{
-	width: 30%;
+	width: 50%;
 	left: 52%;
+	top: 25%;
 	max-width: 461px;
+	position: absolute;
+	z-index: 99;
 }
 
 /*PLANTAS*/
@@ -396,20 +411,39 @@ section{
 	overflow: auto;
 }
 
-#campanhas li{
-	margin-bottom: 20px;
+/*INFO*/
+#info{
+	height: 100%;
+	background: rgba(167,99,168,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(167,99,168,1)), color-stop(100%, rgba(100,5,97,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(167,99,168,1) 0%, rgba(100,5,97,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a763a8', endColorstr='#640561', GradientType=1 );
+	overflow:auto;
+	color: white;
+}
+
+#texto-info{
+	border-bottom: dotted 1px #fff;
+	margin-bottom: 10px;
+}
+
+#img-info img{
+	width: 100%;
 }
 
 /*SMART*/
 .smart {
-	z-index: 2;
+	z-index:999;
 	text-align: center;
 	margin: auto;
 	transition: all 0.5s ease ;
 	height: 90px;
 	width: 720px;
 	background: white;
-	position: absolute;
 	left: 0; right: 0; top:20px;
 
 }
