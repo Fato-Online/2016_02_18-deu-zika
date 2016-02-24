@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	 // MITOS
+	 // MITOssss
 	 $('.resposta').slideUp(400);
 
 	 $('.pergunta-01').click(function() {
