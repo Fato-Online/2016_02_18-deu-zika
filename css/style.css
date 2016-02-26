@@ -23,6 +23,10 @@ a#menu-close {
 	display: none;
 }
 
+.smart {
+	display: none;
+}
+
 #hotsite .bg-color {
 	background-color: #f1f1f1;
 	height: 60px !important;
