@@ -430,6 +430,24 @@ section{
 	color: white;
 }
 
+/*EQUIPE*/
+#equipe{
+	height: 100%;
+	background: rgba(0,0,0,1);
+	overflow:auto;
+	text-align: center;
+	color: white;
+}
+
+.div-equipe {
+	margin-top: 10%;
+}
+
+#texto-equipe{
+	/*border-bottom: dotted 1px #fff;*/
+	margin-bottom: 10px;
+}
+
 #texto-info{
 	border-bottom: dotted 1px #fff;
 	margin-bottom: 10px;
